@@ -1,7 +1,16 @@
 module.exports = {
+    base: "/docs/",
     title: 'Hello VuePress',
     description: 'Just playing around',
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }],
+        ['meta', { name: 'Keywords', content: '电子产品等您想要的产品。' }],
+        ['meta', { name: 'author', content: '林若词' }]
+      ],
     themeConfig: {
+        themeConfig: {
+            lastUpdated: 'Last Updated', // string | boolean
+          },
         logo: '/assets/img/hero.png',
         nav: [
             { text: 'Home', link: '/' },
@@ -34,7 +43,6 @@ module.exports = {
         //     // },
 
         // ]
-
         sidebar: {
             '/art/': [
               '',     /* /foo/ */
