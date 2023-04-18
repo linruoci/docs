@@ -5,7 +5,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['meta', { name: 'Keywords', content: '电子产品等您想要的产品。' }],
-        ['meta', { name: 'author', content: '林若词' }]
+        ['meta', { name: 'author', content: '小胖子' }]
       ],
     themeConfig: {
         themeConfig: {
@@ -14,7 +14,7 @@ module.exports = {
         logo: '/assets/img/hero.png',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/about' },
+            { text: 'product', link: '/about' },
             { text: 'External', link: 'https://google.com' },
             {
                 text: 'Languages',
