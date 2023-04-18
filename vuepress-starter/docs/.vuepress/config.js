@@ -42,7 +42,15 @@ module.exports = {
                 ]
             },
 
-        ]
+        ],
+        plugins: [
+            [
+              '@vuepress/google-analytics',
+              {
+                'ga': 'G-2T97NEREYM' // UA-00000000-0
+              }
+            ]
+          ]
 
 
         // sidebar: {
