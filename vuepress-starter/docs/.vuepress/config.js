@@ -25,31 +25,33 @@ module.exports = {
                 ]
             },
         ],
-        // sidebar: [
-        //     // '/',
-        //     // 'about.md',
-        //     // 'about2.md',
-        //     // //这段代码可以用来进行分组
-        //     // //后面可以对商品进行分类。
-        //     // {
-        //     //     title: 'Group 1',   // 必要的
-        //     //     path: '/art/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        //     //     collapsable: false, // 可选的, 默认值是 true,
-        //     //     sidebarDepth: 1,    // 可选的, 默认值是 1
-        //     //     children: [
-        //     //         '/art/art1',
-        //     //         '/art/art2',
-        //     //     ]
-        //     // },
+        sidebar: [
+            '/',
+            //这段代码可以用来进行分组
+            //后面可以对商品进行分类。
+            {
+                title: 'ProductList',   // 必要的
+                path: '/product/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 1,    // 可选的, 默认值是 1
+                children: [
+                    '/product/SportBand1',
+                    '/product/BlueToothWatch1',
+                    '/product/BlueToothWatch2',
+                    '/product/BlueToothWatch3'
+                ]
+            },
 
-        // ]
-        sidebar: {
-            '/art/': [
-              '',     /* /foo/ */
-              'art1',  /* /foo/one.html */
-              'art2'   /* /foo/two.html */
-            ],
-          }
+        ]
+
+
+        // sidebar: {
+        //     '/art/': [
+        //       '',     /* /foo/ */
+        //       'art1',  /* /foo/one.html */
+        //       'art2'   /* /foo/two.html */
+        //     ],
+        // }
     }
 
 };

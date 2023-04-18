@@ -2,18 +2,30 @@
 home: true
 
 [//]: # (heroImage: /hero.png)
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
-actionLink: /zh/guide/
+heroText: The Digital Shop 
+tagline: welcome bulk purchases, please contact with me 
+actionText: Quick preview of goods →
+actionLink: /product/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: Integrity first
+  details: A vendor from China
+- title: cost-effective
+  details: Our products are not only cheap, but also guaranteed in quality.
+- title: Guarantee after sale
+  details: Our products will be guaranteed after sale.
   footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-# Hello VuePress
+Please click the product TAB in the upper right corner to select the product you want.
+
+
+
+After selecting the product, please contact me. My contact information is as follows:>
+
+
+
+* Wechat: 15521003884
+* Telephone: +86 15521003884
+* telegram:
+
+![image-20230418195050466](https://s1.vika.cn/space/2023/04/18/7819ae2a6eb5451c8156bbddf0634959)
