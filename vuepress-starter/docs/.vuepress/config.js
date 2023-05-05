@@ -5,7 +5,8 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['meta', { name: 'Keywords', content: '电子产品等您想要的产品。' }],
-        ['meta', { name: 'author', content: '小胖子' }]
+        ['meta', { name: 'author', content: '小胖子' }],
+        ['meta', { name: "referrer", content: "no-referrer"}],
       ],
     themeConfig: {
         themeConfig: {
